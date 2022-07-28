@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://app.landingpage.com.br/construtor/assets/imagens/By.png" width="350" title="hover text">
+</p>
+
 # Informações sobre o teste :)
 
 Temos uma api que te fornece os dados de um produto de um ecommerce.
