@@ -90,17 +90,9 @@
 }
 .modal-buybutton-nuvem img {
 	object-fit: cover;
-	transform: scale(1.2);
 	transition: 0.3s;
-	opacity: 0;
-	visibility: hidden;
 	width: 500px;
 	height: 500px;
-}
-.overlay-nuvem.carregou img {
-	transform: scale(1);
-	opacity: 1;
-	visibility: visible;
 	z-index: 4;
 }
 
