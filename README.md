@@ -1,6 +1,11 @@
 # Informações sobre o teste :)
 
-A aplicação é um checkout de um produto; nele a pessoa pode escolher as variantes para aquele produto e fazer a compra, verificando se aquela combinação de variantes existe e se tem em estoque, se caso tiver, irá habilitar o botão e se não, desabilitar. A quantidade de variantes de um produto **não é limitada.**
+Temos uma api que te fornece os dados de um produto de um ecommerce.
+Esse produto possui varias variantes (como cor e tamanho)
+O objetivo deste trabalho é validar se a combinação das variantes possui estoque para realizar a compra.
+
+Então o usuário deve poder selecionar as variantes, e habilitar o botão de compra se tiver estoque.
+Se tiver estoque o botão de compra deve enviar o pedido para a Api de compra
 
 Acreditamos que não exista certo ou errado quando falamos de tecnologia, então não se preocupe: não estamos aqui para julgar nada! Queremos apenas entender a sua linha de raciocínio e criatividade.
 
