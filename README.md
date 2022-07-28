@@ -69,7 +69,7 @@ Exemplo de resposta (Quantidade de propriedades foi reduzida para apenas o que s
 - O produto é enviado através do método `post`
 - [Exemplo de Endpoint](https://app.landingpage.com.br/api/checkoutloja/LPLG4d/5d87eb644e5631bc6a03f1e43a804e1c)
 
-O formato de envio é um objeto seguindo a seguinte estrutura:
+O formato de envio é um array com um objeto seguindo a seguinte estrutura:
 ````javascript
 [{
   values: ["Preto", "p"],
