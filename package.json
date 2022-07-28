@@ -1,0 +1,24 @@
+{
+  "name": "teste-empreender",
+  "version": "1.0.0",
+  "description": "A aplicação é um checkout de um produto; nele a pessoa pode escolher as variantes para aquele produto e fazer a compra, verificando se aquela combinação de variantes existe e se tem em estoque, se caso tiver, irá habilitar o botão e se não, desabilitar. A quantidade de variantes de um produto **não é limitada.**",
+  "main": "src/index.js",
+  "scripts": {
+    "server": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mondayti/Front-end-teste-tecnico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mondayti/Front-end-teste-tecnico/issues"
+  },
+  "homepage": "https://github.com/mondayti/Front-end-teste-tecnico#readme",
+  "dependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
