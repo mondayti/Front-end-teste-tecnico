@@ -4,17 +4,36 @@ A aplicação é um checkout de um produto; nele a pessoa pode escolher as varia
 
 Acreditamos que não exista certo ou errado quando falamos de tecnologia, então não se preocupe: não estamos aqui para julgar nada! Queremos apenas entender a sua linha de raciocínio e criatividade.
 
+## Rodando o projeto
+
+Para agilizar o desenvolvimento, o teste já vem com uma estrutura e um servidor do webpack.
+
+## Requisitos
+Precisamos que tenha algumas coisas para poder rodar:
+- Computador
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+## Como usar
+
+Na raiz do projeto use:
+```
+npm install ou yarn
+```
+
+E para usar o servidor ([webpack](https://webpack.js.org/))
+
+```
+npm run server ou yarn server
+```
 ## APIs
 
 ### Lista
 
 - O produto é obtida através de uma requisição `get`
 - [Exemplo de Endpoint](https://app.landingpage.com.br/ajax/buscarDetalhesProdutoNuvemshop/LPLG4d/127809233)
----
 
-###  `buscarDetalhesProdutoNuvemshop`
 
-Exemplo de resposta:
+Exemplo de resposta (Quantidade de propriedades foi reduzida para apenas o que será usado):
 
 ````javascript
 {
@@ -52,10 +71,10 @@ Exemplo de resposta:
 
 O formato de envio é um objeto seguindo a seguinte estrutura:
 ````javascript
-{
+[{
   values: ["Preto", "p"],
   quantity: 1,
   product_id: 1,
   variant_id: 1,
-};
+}]
 ````
