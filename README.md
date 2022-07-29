@@ -38,7 +38,7 @@ npm run server ou yarn server
 
 ### Lista
 
-- O produto é obtida através de uma requisição `get`
+- O produto é obtido através de uma requisição `get`
 - [Exemplo de Endpoint](https://app.landingpage.com.br/ajax/buscarDetalhesProdutoNuvemshop/LPLG4d/127809233)
 
 
