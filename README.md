@@ -4,14 +4,29 @@
 
 # Informações sobre o teste :)
 
-Temos uma api que te fornece os dados de um produto de um ecommerce.
-Esse produto possui varias variantes (como cor e tamanho)
-O objetivo deste trabalho é validar se a combinação das variantes possui estoque para realizar a compra.
+O Objetivo deste teste é montar uma página de um produto de um ecommerce
 
-Então o usuário deve poder selecionar as variantes, e habilitar o botão de compra se tiver estoque.
-Se tiver estoque o botão de compra deve enviar o pedido para a Api de compra
+Nosso principal objetivo é ver a sua linha de raciocínio, então ja deixamos preparado uma página HTML e CSS para isto.
+
+Temos uma api JSON que te fornece os dados de produtos do ecommerce 
+Esses produtos possui varios atributos, como: titulo, imagem, preço além de varias variantes (como cor e tamanho)
+A página HTML de exemplo, é estática, então você terá que preecher todos os dados do produto vindos da api, na página HTML
+
+Esse teste possui alguns niveis, você deverá cumprir as seguintes tarefas:
+
+1.  Preencher o campo nome do prudoto, imagem e preço
+2.  Preencher os campos de seleção das variantes (cor, voltagem, etc). É importante você prever que um produto pode ter de zero a 3 variantes
+3.  Quando o cliente escolher uma variante, indicar se o produto tem ou não estoque. (Para mostrar a resposta, fique livre para escolher a forma de exibição, você pode usar um alert(), ou utilizar qualquer forma mais bonita para isso)
+4.  Enviar os dados de compra para o checkout
 
 Acreditamos que não exista certo ou errado quando falamos de tecnologia, então não se preocupe: não estamos aqui para julgar nada! Queremos apenas entender a sua linha de raciocínio e criatividade.
+
+O teste é feito em HTML e Javascript puro, mesmo que a vaga seja para algum framework específico, acredito que não terá dificuldade de aplicar javascript vanilla.
+Não acho que seja viável você tentar neste tempo usar algum framework.
+
+## Tempo para o teste
+O tempo será combinado com o aplicador, encerre o teste assim que o tempo se esgotar, é provavel que não consiga concluir todo o teste.
+Tome cuidado para não gastar tempo demasiado em detalhes pouco relevantes
 
 ## Rodando o projeto
 
@@ -36,10 +51,17 @@ npm run server ou yarn server
 ```
 ## APIs
 
-### Lista
+### Carregar Dados dos Produtos
 
-- O produto é obtido através de uma requisição `get`
-- [Exemplo de Endpoint](https://app.landingpage.com.br/ajax/buscarDetalhesProdutoNuvemshop/LPLG4d/127809233)
+O produto é obtido através de uma requisição `get`
+#### Produto 1
+```
+https://app.landingpage.com.br/Ajax/buscarDetalhesProdutoNuvemshop/LPL2gc/180064575
+```
+#### Produto 2
+```
+https://app.landingpage.com.br/Ajax/buscarDetalhesProdutoNuvemshop/LPL2gc/180064631
+```
 
 
 Exemplo de resposta (Quantidade de propriedades foi reduzida para apenas o que será usado):
@@ -73,10 +95,12 @@ Exemplo de resposta (Quantidade de propriedades foi reduzida para apenas o que s
     ]
 }
 ````
-## API de Retorno
+## API do Checkout
 
-- O produto é enviado através do método `post`
-- [Exemplo de Endpoint](https://app.landingpage.com.br/api/checkoutloja/LPLG4d/5d87eb644e5631bc6a03f1e43a804e1c)
+O produto deve ser enviado através do método `post`
+```
+https://app.landingpage.com.br/api/checkoutloja/LPLG4d/5d87eb644e5631bc6a03f1e43a804e1c
+```
 
 O formato de envio é um array com um objeto seguindo a seguinte estrutura:
 ````javascript
