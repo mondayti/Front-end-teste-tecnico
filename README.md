@@ -56,11 +56,11 @@ npm run server ou yarn server
 O produto é obtido através de uma requisição `get`
 #### Produto 1
 ```
-https://app.landingpage.com.br/Ajax/buscarDetalhesProdutoNuvemshop/LPL2gc/180064575
+https://empreender.nyc3.cdn.digitaloceanspaces.com/static/teste-prod-1.json
 ```
 #### Produto 2
 ```
-https://app.landingpage.com.br/Ajax/buscarDetalhesProdutoNuvemshop/LPL2gc/180064631
+https://empreender.nyc3.cdn.digitaloceanspaces.com/static/teste-prod-2.json
 ```
 
 
@@ -71,13 +71,21 @@ Exemplo de resposta (Quantidade de propriedades foi reduzida para apenas o que s
     "id": 127809233,
     "title": "Camisa Prime - Podcast",
     "options": ["Cor","Tamanho"],
-    "values": [["Preto"],["P", "M"]],
+    "values": [["Preto","Azul"],["P", "M"]],
     "variants": [
         {
             "id": 499249469,
             "product_id": 127809233,
             "price": "50.00",
             "values": [ "Preto", "P"],
+            "image_id": 347611168,
+            "inventory_quantity": 20,
+            "image_url": "https://d2r9epyceweg5n.cloudfront.net/stores/002/260/878/products/php1aciy61-8cc5b53686d728f5c516589604020929-1024-1024.png"
+        },{
+            "id": 499249469,
+            "product_id": 127809233,
+            "price": "50.00",
+            "values": [ "Azul", "P"],
             "image_id": 347611168,
             "inventory_quantity": 20,
             "image_url": "https://d2r9epyceweg5n.cloudfront.net/stores/002/260/878/products/php1aciy61-8cc5b53686d728f5c516589604020929-1024-1024.png"
